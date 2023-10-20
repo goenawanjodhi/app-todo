@@ -97,7 +97,7 @@ const FormTodo = () => {
                 </Center>
 
                 <Center color='#000'>
-                    <Heading as='h4' size='sm'>Add Todo List</Heading>
+                    <Heading as='h4' size='sm'>{id !== undefined ? 'Update ': 'Add '}Todo List</Heading>
                 </Center>
 
                 <Box mt={5}>
